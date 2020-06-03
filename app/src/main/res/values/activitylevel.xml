@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="activity_level">
+        <item>Select activity level</item>
+        <item>Bed Rest</item>
+        <item>Very Sedentary</item>
+        <item>Sedentary/Maintenance</item>
+        <item>Light</item>
+        <item>Light Moderate</item>
+        <item>Moderate</item>
+        <item>Heavy</item>
+        <item>Very Heavy</item>
+    </string-array>
+</resources>

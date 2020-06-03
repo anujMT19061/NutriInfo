@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="goal_state">
+        <item>Select goal</item>
+        <item>Maintenance</item>
+        <item>Weight loss</item>
+        <item>Muscle gain</item>
+        <item>Lean gain</item>
+    </string-array>
+</resources>

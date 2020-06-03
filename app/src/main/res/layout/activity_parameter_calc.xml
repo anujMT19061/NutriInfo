@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Base.AlertDialog.AppCompat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    tools:context=".Parameter_calc">
+    <TextView
+        android:layout_width="379dp"
+        android:layout_height="66dp"
+        android:gravity="center"
+        android:text="Your Requirements"
+        android:textColor="#03A9F4"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/aclonica" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="RMR"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/RMR"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/back"
+            android:gravity="center"
+            android:text="999"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:textSize="15dp"
+            android:text="Kcal"
+           />
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Energy"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/EED"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/back"
+            android:gravity="center"
+            android:text="999"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:textSize="15dp"
+            android:text="Kcal"
+            />
+
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="105dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Calories"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Cal"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/back"
+            android:gravity="center"
+            android:text="999"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:textSize="15dp"
+            android:text="Kcal"
+            />
+
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="105dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Carbs"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Carbs"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/back"
+            android:gravity="center"
+            android:text="999"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:textSize="15dp"
+            android:text="gram"
+            />
+
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="105dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Protiens"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Protien"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/back"
+            android:gravity="center"
+            android:text="999"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:textSize="15dp"
+            android:text="gram"
+            />
+
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Fats"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Fat"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/back"
+            android:gravity="center"
+            android:text="999"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:textSize="15dp"
+            android:text="gram"
+            />
+
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:paddingTop="250dp">
+
+        <Button
+            android:id="@+id/next"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="#B703A9F4"
+            android:text="Next"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+</LinearLayout>
